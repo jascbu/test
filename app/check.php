@@ -20,7 +20,7 @@ if ($payload->ref === 'refs/heads/master') {
  
     $project_directory = '/var/lumi/test/';
  
-    $output = shell_exec("/var/lumi/test/git-puller.sh");
+    $output = shell_exec("/var/lumi/git-puller.sh");
  
     //log the request
     file_put_contents('/var/log/lumi/github.log', $output, FILE_APPEND);
