@@ -3,6 +3,6 @@
   <title>PHP Test</title>
  </head>
  <body>
- <?php `git pull`; ?> 
+ <?php echo '<p>Hello World</p>'; ?> 
  </body>
 </html>
